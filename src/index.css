@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-orange: #FF7500;
+  --color-brand-dark: #0A0A0A;
+  --color-brand-gray: #1A1A1A;
+  
+  --color-bg-primary: #0A0A0A;
+  --color-bg-secondary: #1A1A1A;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A1A1AA;
+  --color-border-primary: rgba(255, 255, 255, 0.1);
+}
+
+.light {
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #FFF7F0; /* Soft orange tint */
+  --color-text-primary: #09090B;
+  --color-text-secondary: #4B5563;
+  --color-border-primary: rgba(255, 117, 0, 0.1);
+}
+
+/* Light theme specific overrides for vibrancy */
+.light .glass {
+  @apply bg-white/70 backdrop-blur-md border-orange-100 shadow-sm;
+}
+
+.light .bg-bg-secondary\/30 {
+  @apply bg-orange-50/50;
+}
+
+.light .bg-bg-secondary\/50 {
+  @apply bg-orange-50;
+}
+
+.light .text-gradient {
+  @apply bg-gradient-to-r from-brand-orange to-orange-400 bg-clip-text text-transparent;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary font-sans antialiased selection:bg-brand-orange selection:text-white transition-colors duration-300;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-text-primary;
+  }
+}
+
+.glass {
+  @apply bg-text-primary/5 backdrop-blur-lg border border-border-primary;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-brand-orange to-[#FF9000];
+}
+
+.section-padding {
+  @apply py-24 px-6 md:px-12 lg:px-24;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-brand-dark;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-orange/50 rounded-full hover:bg-brand-orange transition-colors;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
