@@ -61,7 +61,7 @@ export default function ArticleDetail() {
                 "{article.fullContent}"
               </p>
               
-              <div className="my-16 h-px bg-gradient-to-r from-brand-orange/50 via-transparent to-transparent" />
+              <div className="my-16 h-px bg-linear-to-r from-brand-orange/50 via-transparent to-transparent" />
               
               <h3 className="text-3xl font-display font-bold mb-8 text-white">Why This Matters</h3>
               <p className="text-text-secondary leading-relaxed mb-12">

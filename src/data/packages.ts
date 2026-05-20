@@ -25,8 +25,8 @@ export const packages: Package[] = [
   {
     slug: "starter-growth",
     name: "Growth Starter",
-    price: "From $2,500",
-    basePrice: 2500,
+    price: "From $250-2500",
+    basePrice: 300,
     tagline: "Perfect for Small Businesses & Startups",
     description: "Establish your digital presence with a high-performance, conversion-optimized platform built for immediate impact.",
     icon: Zap,
@@ -52,8 +52,8 @@ export const packages: Package[] = [
   {
     slug: "business-scale",
     name: "Business Scale",
-    price: "From $7,500",
-    basePrice: 7500,
+    price: "From $2500-7,500",
+    basePrice: 2500,
     tagline: "The Ultimate Tool for Established SMEs",
     description: "Scale your operations with custom workflows, advanced AI assistant integrations, and enterprise-grade security.",
     icon: Rocket,

@@ -361,9 +361,9 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <button className="w-full sm:w-auto px-8 md:px-12 py-4 md:py-5 bg-brand-orange text-white rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-2xl shadow-brand-orange/30">
+              <a href="https://calendly.com/uzairjamal-dev/30min" target="_blank"><button className="w-full sm:w-auto px-8 md:px-12 py-4 md:py-5 bg-brand-orange text-white rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-2xl shadow-brand-orange/30">
                 Book My Meeting
-              </button>
+              </button></a>
               <div className="flex -space-x-3 md:-space-x-4">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 md:border-4 border-bg-primary overflow-hidden bg-text-primary/10">
@@ -483,10 +483,10 @@ export default function Home() {
                   <Link to={`/packages/${pkg.slug}`} className="block h-full">
                     <div className={`relative h-full glass rounded-[3rem] p-10 md:p-12 border-brand-orange/5 hover:border-brand-orange/20 transition-all duration-500 overflow-hidden flex flex-col`}>
                       {/* Background glow */}
-                      <div className={`absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br ${pkg.color} blur-[80px] opacity-10 group-hover:opacity-30 transition-opacity`} />
+                      <div className={`absolute -top-10 -right-10 w-40 h-40 bg-linear-to-br ${pkg.color} blur-[80px] opacity-10 group-hover:opacity-30 transition-opacity`} />
                       
                       <div className="mb-10 relative">
-                        <div className={`w-16 h-16 bg-gradient-to-br ${pkg.color} rounded-2xl flex items-center justify-center text-white mb-8 shadow-xl`}>
+                        <div className={`w-16 h-16 bg-linear-to-br ${pkg.color} rounded-2xl flex items-center justify-center text-white mb-8 shadow-xl`}>
                           <pkg.icon size={30} />
                         </div>
                         <h4 className="text-3xl font-display font-bold group-hover:text-brand-orange transition-colors duration-300">{pkg.name}</h4>

@@ -162,9 +162,23 @@ export default function ProjectDetail() {
             <div className="glass p-8 md:p-10 rounded-[3rem] bg-brand-orange text-white">
               <h3 className="text-xl font-display font-bold mb-4">Want similar results?</h3>
               <p className="text-white/80 text-sm mb-8 leading-relaxed">Let's discuss how we can build a high-performance system for your business.</p>
-              <Link to="/contact" className="w-full py-4 bg-white text-brand-orange rounded-full font-bold flex items-center justify-center gap-2 hover:scale-105 transition-all shadow-xl">
-                Get Case Study Deep-Dive
-              </Link>
+              {project.liveUrl ? (
+  <a
+    href={project.liveUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full py-4 bg-white text-brand-orange rounded-full font-bold flex items-center justify-center gap-2 hover:scale-105 transition-all shadow-xl"
+  >
+    Live Preview
+  </a>
+) : (
+  <button
+    disabled
+    className="w-full py-4 bg-gray-300 text-gray-600 rounded-full font-bold cursor-not-allowed"
+  >
+    No Live Link Available
+  </button>
+)}
             </div>
           </div>
         </div>

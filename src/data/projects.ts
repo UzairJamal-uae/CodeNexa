@@ -23,6 +23,7 @@ import p20 from '../assets/p20.png';
 export interface Project {
   id: string;
   title: string;
+  liveUrl: string
   category: "Web" | "Mobile" | "AI" | "Enterprise";
   image: string;
   desc: string;
@@ -40,6 +41,7 @@ export const projects: Project[] = [
   {
     id: "Hamnawa Travels",
     title: "Hamnawa Travels",
+    liveUrl: "https://hamnawatravel.netlify.app/",
     category: "Web",
     image: p3,
     desc: "Automated lead generation platform that uses machine learning to identify and qualify International Tourists.",
@@ -64,6 +66,7 @@ export const projects: Project[] = [
   {
     id: "BF 101 LLC",
     title: "BF 101 LLC",
+    liveUrl: "https://www.bf101ilog.com/",
     category: "Web",
     image: p1,
     desc: "A centralized operating system for logistics and supply chain management, optimizing fleet tracking and driver dispatching workflows.",
@@ -88,6 +91,7 @@ export const projects: Project[] = [
   {
     id: "RFC Fas Food",
     title: "RFC Fas Food",
+    liveUrl: "https://www.rfcjhang.pk/",
     category: "Web",
     image: p7,
     desc: "A youth-focused Fast Food Restaurant Website.",
@@ -112,6 +116,7 @@ export const projects: Project[] = [
   {
     id: "Dezlee LLC",
     title: "Dezlee LLC",
+    liveUrl: "https://dezlee.us/",
     category: "Web",
     image: p4,
     desc: "High-conversion Freight Brokerage infrastructure designed for 7-figure international company, featuring custom checkout optimizations.",
@@ -136,6 +141,7 @@ export const projects: Project[] = [
   {
     id: "Ajaz Faisal",
     title: "Ajaz Faisal",
+    liveUrl: "https://ajazfaisal.com/",
     category: "AI",
     image: p5,
     desc: "A premium fashion catalog website to showcase the work of Faisal Ajaz to the world.",
@@ -151,6 +157,7 @@ export const projects: Project[] = [
   {
     id: "VibeGYM",
     title: "VibeGYM",
+    liveUrl: "https://dha.vibegym.pk/",
     category: "Mobile",
     image: p10,
     desc: "AI-driven personal trainer in your pocket.",
@@ -166,6 +173,7 @@ export const projects: Project[] = [
   {
     id: "Savagelyfe LLC",
     title: "Savagelyfe LLC",
+    liveUrl: "https://666savage.com/",
     category: "Enterprise",
     image: p6,
     desc: "Last-mile delivery optimization for global retailers.",
@@ -181,6 +189,7 @@ export const projects: Project[] = [
   {
     id: "MKM Vault",
     title: "MKM Vault",
+    liveUrl: "https://mkmvault.com/",
     category: "Web",
     image: p2,
     desc: "Custom CRM and communication layer for US trucking operations, reducing dispatch response times by 40%.",
@@ -196,6 +205,7 @@ export const projects: Project[] = [
   {
     id: "Movies Any Where",
     title: "Movies Any Where",
+    liveUrl: "https://moviesanywhere.com/home",
     category: "Web",
     image: p11,
     desc: "Next-gen social network focused on high-quality content creator tools.",
@@ -211,6 +221,7 @@ export const projects: Project[] = [
   {
     id: "R&Y Autos",
     title: "R&Y Autos",
+    liveUrl: "https://ryautotransport.com/",
     category: "Web",
     image: p12,
     desc: "A transport management system for a rising brokerage company.",
@@ -226,6 +237,7 @@ export const projects: Project[] = [
   {
     id: "Pink Pelican",
     title: "Pink Pelican",
+    liveUrl: "https://www.pinkpelicanpcb.com/",
     category: "Mobile",
     image: p8,
     desc: "A soft-vibe website for Pink Pelican Ice Cream Parlor.",
@@ -241,6 +253,7 @@ export const projects: Project[] = [
   {
     id: "Johnson Freight",
     title: "Johnson Freight",
+    liveUrl: "https://johnsonfreighttransportation.com/",
     category: "Enterprise",
     image: p13,
     desc: "A clean and freight-oriented WordPress website.",
@@ -256,6 +269,7 @@ export const projects: Project[] = [
   {
     id: "Sweet & Cream",
     title: "Sweet & Cream",
+    liveUrl: "https://sweetcreme.com.pk/",
     category: "Web",
     image: p9,
     desc: "A clean and professional website for the Sweet & Cream ice cream brand.",
@@ -271,6 +285,7 @@ export const projects: Project[] = [
   {
     id: "Wave Lane",
     title: "Wave Lane",
+    liveUrl: "https://www.wavelanefreight.com/",
     category: "AI",
     image: p14,
     desc: "Adaptive Freight shipping platform that adjusts curriculum in real-time based on shipper's needs.",
@@ -286,6 +301,7 @@ export const projects: Project[] = [
   {
     id: "PrimeGate",
     title: "PrimeGate",
+    liveUrl: "https://primegateskill.netlify.app/",
     category: "Web",
     image: p15,
     desc: "Advanced Website and ERP System for PrimeGate Skill Institute.",
@@ -301,6 +317,7 @@ export const projects: Project[] = [
   {
     id: "Compass RealEstate",
     title: "Compass RealEstate",
+    liveUrl: "https://www.compass.com/",
     category: "Web",
     image: p19,
     desc: "A decentralized Website for high-end digital Real Estate Agency.",
@@ -316,6 +333,7 @@ export const projects: Project[] = [
   {
     id: "Z&I Trucking",
     title: "Z&I Trucking",
+    liveUrl: "https://zilogisticsllc.com/",
     category: "Enterprise",
     image: p16,
     desc: "Blockchain-based supply chain transparency for fair-trade products.",
@@ -331,6 +349,7 @@ export const projects: Project[] = [
   {
     id: "TrueCar",
     title: "TrueCar",
+    liveUrl: "https://www.truecar.com/",
     category: "Mobile",
     image: p18,
     desc: "Next-gen car sharing and fleet management application.",
@@ -346,6 +365,7 @@ export const projects: Project[] = [
   {
     id: "Orange Coast",
     title: "Orange Coast",
+    liveUrl: "https://orangecoastcollege.edu/",
     category: "AI",
     image: p20,
     desc: "Orange Coast for early detection of telepsychiatry in medical imaging.",
@@ -361,6 +381,7 @@ export const projects: Project[] = [
   {
     id: "LFL Logistics",
     title: "LFL Logistics",
+    liveUrl: "https://lfllogistics.com/",
     category: "Web",
     image: p17,
     desc: "A decentralized Website for high-end digital Freight Brokerage.",

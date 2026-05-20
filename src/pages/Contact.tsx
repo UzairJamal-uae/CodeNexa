@@ -63,7 +63,7 @@ export default function Contact() {
 
           {/* Form / Coffee */}
           <div className="flex flex-col gap-8">
-            <div className="glass p-6 md:p-14 rounded-[2rem] md:rounded-[3.5rem] relative overflow-hidden">
+            <div className="glass p-6 md:p-14 rounded-4xl md:rounded-[3.5rem] relative overflow-hidden">
               <div className="absolute top-0 right-0 w-40 h-40 bg-brand-orange/10 blur-[50px]" />
               
               <div className="flex items-center gap-4 mb-10">
@@ -100,7 +100,7 @@ export default function Contact() {
 
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold uppercase tracking-widest text-zinc-500 ml-4">Message</label>
-                  <textarea rows={4} placeholder="How can we help?" className="w-full bg-white/5 border border-white/10 rounded-[1.5rem] md:rounded-[2rem] px-6 py-3 md:py-4 focus:border-brand-orange outline-none transition-all resize-none text-sm" />
+                  <textarea rows={4} placeholder="How can we help?" className="w-full bg-white/5 border border-white/10 rounded-3xl md:rounded-4xl px-6 py-3 md:py-4 focus:border-brand-orange outline-none transition-all resize-none text-sm" />
                 </div>
 
                 <button className="w-full py-4 md:py-5 bg-brand-orange text-white rounded-full font-bold text-base md:text-lg hover:scale-[1.02] transition-all flex items-center justify-center gap-3 shadow-xl shadow-brand-orange/20">
@@ -110,9 +110,9 @@ export default function Contact() {
               </form>
             </div>
 
-            <div className="glass p-6 md:p-8 rounded-[1.5rem] md:rounded-[2rem] border-dashed border-white/20 text-center">
+            <div className="glass p-6 md:p-8 rounded-3xl md:rounded-4xl border-dashed border-white/20 text-center">
               <p className="text-zinc-500 text-xs md:text-sm">
-                Prefer a direct meeting? <button className="text-brand-orange font-bold hover:underline">Click here</button> to book via Calendly.
+                Prefer a direct meeting? <a href="https://calendly.com/uzairjamal-dev/30min" target="_blank"><button className="text-brand-orange font-bold hover:underline">Click here</button></a> to book via Calendly.
               </p>
             </div>
           </div>
