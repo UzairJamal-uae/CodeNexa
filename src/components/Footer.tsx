@@ -22,9 +22,9 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { Icon: Linkedin, href: "#", label: "LinkedIn", color: "hover:bg-[#0077B5]" },
-    { Icon: Instagram, href: "#", label: "Instagram", color: "hover:bg-[#E4405F]" },
-    { Icon: Facebook, href: "#", label: "Facebook", color: "hover:bg-[#1877F2]" },
+    { Icon: Linkedin, href: "https://www.linkedin.com/company/codenexaweb/", label: "LinkedIn", color: "hover:bg-[#0077B5]" },
+    { Icon: Instagram, href: "https://www.instagram.com/codenexa_dev/", label: "Instagram", color: "hover:bg-[#E4405F]" },
+    { Icon: Facebook, href: "https://web.facebook.com/profile.php?id=61590237642544", label: "Facebook", color: "hover:bg-[#1877F2]" },
     { Icon: Twitter, href: "#", label: "Twitter", color: "hover:bg-[#1DA1F2]" },
   ];
 
