@@ -11,8 +11,8 @@ export const services = [
   { 
     id: "web",
     icon: Globe, 
-    title: "Websites that Sell", 
-    desc: "Custom-built websites designed to turn visitors into leads and customers.",
+    title: "Website Development", 
+    desc: "Modern, fast, responsive websites designed around your business goals.",
     details: "We don't just build websites; we build growth tools. Your site will be easy for your team to manage and even easier for your customers to use, ensuring you never miss a sale.",
     benefits: ["Google Search Ready", "Works on All Phones", "Super Fast Loading", "Secure for Payments"],
     impact: "Helps businesses attract more local and global customers instantly.",
@@ -22,7 +22,7 @@ export const services = [
   { 
     id: "app",
     icon: Smartphone, 
-    title: "Mobile Business Apps", 
+    title: "Mobile App Development", 
     desc: "Put your business directly in your customers' pockets with a custom app.",
     details: "Engage your customers where they spend most of their time—on their phones. We build simple, powerful apps that make booking, buying, or browsing a breeze for your clients.",
     benefits: ["Easy to Use", "Works Offline", "Direct Notifications", "Safe and Secure"],
@@ -55,7 +55,7 @@ export const services = [
   { 
     id: "ai-api",
     icon: Cpu, 
-    title: "AI Business Integration", 
+    title: "AI Bots & Solutions", 
     desc: "Make your existing systems smarter and faster with modern AI.",
     details: "We help you use tools like Gemini to automate tedious tasks, predict trends, and analyze your business data without you lifting a finger.",
     benefits: ["Automatic Tasks", "Smart Predictions", "Clear Insights", "Saves Hours Weekly"],

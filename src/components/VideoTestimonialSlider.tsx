@@ -1,15 +1,16 @@
 import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Pause, ChevronLeft, ChevronRight, Quote, User, X, Star } from 'lucide-react';
+import michelet from '../assets/michelet.png';
 
 const testimonials = [
   {
     id: 1,
-    name: "Jonathan Reeves",
-    role: "Director of Operations, RetailSync",
-    videoThumbnail: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800",
-    quote: "CodeNexa didn't just build us a tool; they gave us a 40% increase in order processing speed. Hearing Uzair's team explain the logic was eye-opening.",
-    videoUrl: "https://vjs.zencdn.net/v/oceans.mp4" // Placeholder video
+    name: "Michele Ross",
+    role: "CEO of MKM Vault",
+    videoThumbnail: michelet,
+    quote: "CodeNexa didn't just build us a Website, they gave us a proper Brand Identity. The whole experience was eye-opening.",
+    videoUrl: "/videos/michael.mp4" // Placeholder video
   },
   {
     id: 2,

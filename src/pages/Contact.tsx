@@ -10,13 +10,14 @@ export default function Contact() {
       phone: "+1 929-244-9363",
       email: "codenexa.contact@gmail.com"
     },
-    {
+  ];
+
+  {/*{ ( to ad seconed address section in contact page just ad this section above, below USA office details)
       country: "Pakistan",
       address: "Nawaz Chowk, Jhang Sadar, Punjab",
       phone: "+92 0371-1467045",
       email: "codenexa.contact@gmail.com"
-    }
-  ];
+    }*/}
 
   return (
     <div className="pt-32 min-h-screen">

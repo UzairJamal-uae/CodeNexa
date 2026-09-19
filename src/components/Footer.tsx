@@ -25,10 +25,7 @@ export default function Footer() {
     { Icon: Linkedin, href: "#", label: "LinkedIn", color: "hover:bg-[#0077B5]" },
     { Icon: Instagram, href: "#", label: "Instagram", color: "hover:bg-[#E4405F]" },
     { Icon: Facebook, href: "#", label: "Facebook", color: "hover:bg-[#1877F2]" },
-    { Icon: Music, href: "#", label: "TikTok", color: "hover:bg-black" },
-    { Icon: Globe, href: "#", label: "Upwork", color: "hover:bg-[#14a800]" },
     { Icon: Twitter, href: "#", label: "Twitter", color: "hover:bg-[#1DA1F2]" },
-    { Icon: Github, href: "#", label: "GitHub", color: "hover:bg-[#333]" },
   ];
 
   return (
@@ -167,7 +164,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4 p-5 glass rounded-3xl border-white/5 hover:border-brand-orange/20 transition-colors group">
+              {/*<div className="flex items-start gap-4 p-5 glass rounded-3xl border-white/5 hover:border-brand-orange/20 transition-colors group">
                 <div className="w-10 h-10 rounded-xl bg-brand-orange/10 flex items-center justify-center shrink-0 group-hover:bg-brand-orange group-hover:text-white transition-all">
                   <MapPin size={18} />
                 </div>
@@ -176,7 +173,7 @@ export default function Footer() {
                   <div className="text-sm text-text-secondary leading-snug">Nawaz Chowk, Jhang Sadar, Punjab</div>
                   <div className="text-xs font-bold mt-2 text-text-primary">+92 0371-1467045</div>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

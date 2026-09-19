@@ -1,6 +1,8 @@
 import { Target, Rocket, Cpu, Globe, Zap, CheckCircle2 } from 'lucide-react';
-import art1 from '../assets/art1.jpg';
+import art1 from '../assets/art1.png';
 import art2 from '../assets/art2.png';
+import art3 from '../assets/art3.png';
+import art4 from '../assets/art4.png';
 
 export interface Article {
   slug: string;
@@ -57,7 +59,7 @@ export const insights: Article[] = [
     slug: "cybersecurity-small-business",
     title: "Cybersecurity: A Shield for Small Business",
     desc: "Think you're too small for a cyber attack? Think again. Protection is your best investment.",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800",
+    image: art3,
     tag: "Security",
     publishedAt: "April 28, 2026",
     fullContent: "Cybersecurity is often overlooked by small to mid-sized enterprises (SMEs) until a breach occurs. However, data breaches can be fatal for smaller organizations. Implementing basic security protocols and moving to encrypted cloud systems isn't just an IT task—it's a fundamental business protector.",
@@ -76,7 +78,7 @@ export const insights: Article[] = [
     slug: "ui-ux-conversion-rates",
     title: "How UI/UX Design Impacts Conversion",
     desc: "It's not just about looking good. Better design means more profit and happier loyal customers.",
-    image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800",
+    image: art4,
     tag: "Design",
     publishedAt: "April 20, 2026",
     fullContent: "User Experience (UX) and User Interface (UI) design are the silent salesmen of your digital presence. A well-designed platform guides the user naturally toward the 'Buy' or 'Contact' button. Removing friction in the user journey is the most direct way to increase revenue without spending more on marketing.",

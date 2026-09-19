@@ -79,10 +79,10 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-              <button className="w-full sm:w-auto px-8 py-4 bg-brand-orange text-white rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-2xl shadow-brand-orange/20 flex items-center justify-center gap-3 group">
+              <a href="/contact"><button className="w-full sm:w-auto px-8 py-4 bg-brand-orange text-white rounded-full font-bold text-base md:text-lg hover:scale-105 transition-all shadow-2xl shadow-brand-orange/20 flex items-center justify-center gap-3 group">
                 Start a Project
                 <ArrowRight className="group-hover:translate-x-2 transition-transform" />
-              </button>
+              </button></a>
               <a href="#services" className="w-full sm:w-auto px-8 py-4 glass rounded-full font-bold text-base md:text-lg hover:bg-text-primary/10 transition-all font-display flex items-center justify-center">
                 Our Services
               </a>
@@ -177,7 +177,7 @@ export default function Home() {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <h2 className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-4">Value Proposition</h2>
+            <h2 className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-4">Let's Discuss</h2>
             <h3 className="text-4xl md:text-6xl font-display font-bold mb-8">What We Bring <br /><span className="text-gradient">To Your Table</span></h3>
             <div className="space-y-8">
               {[
@@ -210,10 +210,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-20 text-balance">
             <div className="max-w-2xl">
               <h2 className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-4">Our Expertise</h2>
-              <h3 className="text-5xl md:text-6xl font-display font-bold">Full-Spectrum Digital <br />Innovation Engine</h3>
+              <h3 className="text-5xl md:text-6xl font-display font-bold">Everything You Need <br />to Grow Digitally.</h3>
             </div>
             <p className="max-w-md text-text-secondary">
-              We provide end-to-end technological solutions designed to catapult your business into the modern digital era. Click a service to dive deeper.
+              From websites and mobile apps to custom software and AI-powered solutions, We provide the technology your business needs, all under one roof.
             </p>
           </div>
           <ServiceGrid />
@@ -435,7 +435,7 @@ export default function Home() {
             <div className="max-w-2xl">
               <h2 className="text-brand-orange font-bold uppercase tracking-[0.3em] text-sm mb-4">Investment Plans</h2>
               <h3 className="text-4xl md:text-6xl font-display font-bold">Scaling Your <span className="text-gradient">Vision</span></h3>
-              <p className="text-text-secondary mt-6 text-lg italic">"Top-tier development isn't an expense—it's the fuel for your next 10x growth phase."</p>
+              <p className="text-text-secondary mt-6 text-lg italic">"For exact pricing for your project, contact us. Remember, top-tier development isn't an expense it's the fuel for your next 10x growth phase."</p>
             </div>
             
             {/* Currency Switcher */}
