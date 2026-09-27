@@ -13,12 +13,12 @@ export default function About() {
       website: "uzairjamal.netlify.app",
       bio: "Visionary technologist dedicated to revolutionizing the IT landscape through CodeNexa."
     },
-    {
+    /*{
       name: "Munazza Batool",
       role: "Co-Founder / COO",
       image: img2,
       bio: "Operational mastermind ensuring excellence in service delivery and client satisfaction."
-    }
+    }*/
   ];
 
   return (
