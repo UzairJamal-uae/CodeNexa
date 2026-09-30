@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import VideoTestimonialSlider from '../components/VideoTestimonialSlider';
 import { projects } from '../data/projects';
+import SEO from '../components/SEO';
 
 const categories = ["All", "Web", "Mobile", "AI", "Enterprise"];
 
@@ -22,6 +23,12 @@ export default function Portfolio() {
     : projects.filter(p => p.category === activeCategory);
 
   return (
+    <>
+    <SEO
+      title="Portfolio | CodeNexa Projects & Case Studies"
+      description="Explore CodeNexa's portfolio of websites, applications, software, automation systems, and digital technology projects."
+      path="/portfolio"
+    />
     <div className="pt-32 min-h-screen bg-bg-primary">
       {/* Header */}
       <section className="section-padding text-center relative overflow-hidden">
@@ -153,5 +160,6 @@ export default function Portfolio() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

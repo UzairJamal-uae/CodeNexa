@@ -7,6 +7,7 @@ import {
 import { useState, useEffect } from 'react';
 import SectionWrapper from '../components/SectionWrapper';
 import { packages } from '../data/packages';
+import SEO from '../components/SEO';
 
 export default function PackageDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -46,6 +47,12 @@ export default function PackageDetail() {
   ];
 
   return (
+    <>
+    <SEO
+      title={`${pkg.name} | CodeNexa`}
+      description={pkg.description}
+      path={`/packages/${pkg.slug}`}
+    />
     <div className="pt-20">
       {/* Hero Header */}
       <section className={`relative py-20 md:py-32 overflow-hidden`}>
@@ -235,5 +242,6 @@ export default function PackageDetail() {
         )}
       </AnimatePresence>
     </div>
+    </>
   );
 }

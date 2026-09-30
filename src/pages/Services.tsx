@@ -3,9 +3,16 @@ import { services } from '../components/ServiceGrid';
 import SectionWrapper from '../components/SectionWrapper';
 import { ArrowRight, CheckCircle2, Zap, Rocket } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 export default function Services() {
   return (
+    <>
+  <SEO
+    title="IT Services | Web, App & Software Development | CodeNexa"
+    description="Explore CodeNexa's web development, app development, custom software, AI, automation, and technology services designed to help businesses grow."
+    path="/services"
+  />
     <div className="pt-32 min-h-screen bg-bg-primary">
       {/* Header */}
       <section className="section-padding text-center relative overflow-hidden">
@@ -103,5 +110,6 @@ export default function Services() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

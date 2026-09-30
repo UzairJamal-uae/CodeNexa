@@ -8,6 +8,7 @@ import {
 import { useEffect } from 'react';
 import SectionWrapper from '../components/SectionWrapper';
 import { projects } from '../data/projects';
+import SEO from '../components/SEO';
 
 export default function ProjectDetail() {
   const { id } = useParams<{ id: string }>();
@@ -29,6 +30,12 @@ export default function ProjectDetail() {
   }
 
   return (
+    <>
+    <SEO
+      title={`${project.title} | CodeNexa Portfolio`}
+      description={project.desc}
+      path={`/portfolio/${encodeURIComponent(project.id)}`}
+    />
     <div className="pt-20">
       {/* Hero Header */}
       <section className="relative h-[60vh] md:h-[80vh] flex items-end justify-center overflow-hidden">
@@ -184,5 +191,6 @@ export default function ProjectDetail() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

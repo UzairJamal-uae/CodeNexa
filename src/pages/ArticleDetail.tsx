@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Tag, CheckCircle2, ArrowRight } from 'lucide-react
 import SectionWrapper from '../components/SectionWrapper';
 import { insights } from '../data/insights';
 import { useEffect } from 'react';
+import SEO from '../components/SEO';
 
 export default function ArticleDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -25,6 +26,13 @@ export default function ArticleDetail() {
   }
 
   return (
+    <>
+    <SEO
+      title={`${article.title} | CodeNexa Insights`}
+      description={article.desc}
+      path={`/insights/${article.slug}`}
+      type="article"
+    />
     <div className="pt-20">
       {/* Hero Header */}
       <section className="relative h-[60vh] min-h-100 flex items-end">
@@ -129,5 +137,6 @@ export default function ArticleDetail() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

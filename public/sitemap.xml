@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Main Pages -->
 
   <url>
     <loc>https://codenexa.co/</loc>
@@ -23,6 +26,123 @@
 
   <url>
     <loc>https://codenexa.co/insights</loc>
+  </url>
+
+
+  <!-- Insight Articles -->
+
+  <url>
+    <loc>https://codenexa.co/insights/ai-revolution-workspace</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/insights/adopting-trends-critical</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/insights/cybersecurity-small-business</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/insights/ui-ux-conversion-rates</loc>
+  </url>
+
+
+  <!-- Packages -->
+
+  <url>
+    <loc>https://codenexa.co/packages/starter-growth</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/packages/business-scale</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/packages/enterprise-elite</loc>
+  </url>
+
+
+  <!-- Portfolio Projects -->
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Hamnawa%20Travels</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/BF%20101%20LLC</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/RFC%20Fas%20Food</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Dezlee%20LLC</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Ajaz%20Faisal</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/VibeGYM</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Savagelyfe%20LLC</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/MKM%20Vault</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Movies%20Any%20Where</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/R%26Y%20Autos</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Pink%20Pelican</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Johnson%20Freight</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Sweet%20%26%20Cream</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Wave%20Lane</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/PrimeGate</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Compass%20RealEstate</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Z%26I%20Trucking</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/TrueCar</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/Orange%20Coast</loc>
+  </url>
+
+  <url>
+    <loc>https://codenexa.co/portfolio/LFL%20Logistics</loc>
   </url>
 
 </urlset>

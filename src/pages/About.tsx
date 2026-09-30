@@ -3,6 +3,7 @@ import { Users, Target, Rocket, Award, ExternalLink } from 'lucide-react';
 import SectionWrapper from '../components/SectionWrapper';
 import img1 from '../assets/img1.jpg';
 import img2 from '../assets/img2.jpg';
+import SEO from '../components/SEO';
 
 export default function About() {
   const team = [
@@ -22,6 +23,12 @@ export default function About() {
   ];
 
   return (
+    <>
+    <SEO
+      title="About CodeNexa | Our Story & Mission"
+      description="Learn about CodeNexa, our mission, vision, values, and the team building modern technology solutions for growing businesses."
+      path="/about"
+    />
     <div className="pt-32 min-h-screen">
       {/* Hero Header */}
       <section className="section-padding text-center relative overflow-hidden">
@@ -102,5 +109,6 @@ export default function About() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

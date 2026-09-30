@@ -13,6 +13,7 @@ import VideoTestimonialSlider from '../components/VideoTestimonialSlider';
 import ProjectSlider from '../components/ProjectSlider';
 import { insights } from '../data/insights';
 import { packages } from '../data/packages';
+import SEO from '../components/SEO';
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -45,6 +46,12 @@ export default function Home() {
   ];
 
   return (
+<>
+    <SEO
+      title="CodeNexa | Next-Gen IT Agency"
+      description="CodeNexa helps businesses grow through modern web development, app development, custom software, AI solutions, and business automation."
+      path="/"
+    />
     <div className="relative overflow-hidden bg-bg-primary text-text-primary">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-orange/10 blur-[150px] rounded-full -z-10 animate-pulse" />
@@ -556,5 +563,6 @@ export default function Home() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

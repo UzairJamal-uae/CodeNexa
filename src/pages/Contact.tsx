@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Send, Coffee, Globe } from 'lucide-react';
 import SectionWrapper from '../components/SectionWrapper';
+import SEO from '../components/SEO';
 
 export default function Contact() {
   const offices = [
@@ -20,6 +21,12 @@ export default function Contact() {
     }*/}
 
   return (
+    <>
+    <SEO
+  title="Contact CodeNexa | Start Your Technology Project"
+  description="Contact CodeNexa to discuss your website, app, custom software, AI, automation, or business technology project."
+  path="/contact"
+/>
     <div className="pt-32 min-h-screen">
       <SectionWrapper className="section-padding">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
@@ -121,5 +128,6 @@ export default function Contact() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }

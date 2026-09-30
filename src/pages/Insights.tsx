@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import SectionWrapper from '../components/SectionWrapper';
 import { insights } from '../data/insights';
 import { useEffect } from 'react';
+import SEO from '../components/SEO';
 
 export default function Insights() {
   useEffect(() => {
@@ -11,6 +12,12 @@ export default function Insights() {
   }, []);
 
   return (
+    <>
+    <SEO
+  title="Insights | Technology & Business Growth | CodeNexa"
+  description="Read CodeNexa insights on technology, AI, software development, automation, digital transformation, and business growth."
+  path="/insights"
+/>
     <div className="pt-32 pb-20 overflow-hidden">
       <SectionWrapper className="section-padding">
         <div className="max-w-7xl mx-auto">
@@ -71,5 +78,6 @@ export default function Insights() {
         </div>
       </SectionWrapper>
     </div>
+    </>
   );
 }
